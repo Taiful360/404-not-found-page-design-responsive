@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    margin-left: 30px;
+    font-family: Roboto Mono;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.content h1 {
+    font-family: Roboto Mono;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.content p {
+    font-family: Roboto Mono;
+    font-size: 25px;
+    font-weight: 400;
+    color: gray;
+}
+
+.content button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family: Roboto Mono;
+}
+
+@media screen and (max-width: 576px) {
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+
+}
